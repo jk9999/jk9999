@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		 <typeAlias type="com.kdn.model.domain.Board" alias="board"/>
+		 <typeAlias type="com.kdn.model.domain.BoardFile" alias="boardfile"/>
+		 <typeAlias type="com.kdn.model.domain.PageBean" alias="pagebean"/>
+		 
+		 <typeAlias type="com.kdn.model.domain.Employee" alias="employee"/>
+	</typeAliases>
+	<mappers>
+	</mappers>
+</configuration>
